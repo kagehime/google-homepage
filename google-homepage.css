@@ -1,0 +1,119 @@
+/**
+ * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
+ * 
+ * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
+ * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
+ *
+ * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
+ */
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	overflow: hidden;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+/*  #header {
+	background:#ededed;
+	padding:10px;
+}
+#content {
+	padding-bottom:100px; /* Height of the footer element 
+}
+#footer {
+	background:#ffab62;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+} */
+---------------------------------------------------------------------------
+
+a:link{
+	text-decoration: none;
+	color: gray;
+}
+
+li a{
+	text-decoration: none;
+	color: gray;
+} 
+
+a:hover{
+	text-decoration: underline;
+}
+
+nav{
+	margin-right: 30px;
+	text-align: right;
+}
+
+#logo{
+	margin-top: 150px;
+}
+
+#search {
+	width: 550px;
+	height: 25px;
+	margin-top: 25px;
+}
+
+.btn1{
+	background-color: #f1f1f1;
+	width: 110px;
+	height: 30px;
+	border-radius: 3px;
+	margin-top: 20px;
+	text-align: center;
+	border: solid 1px #ccc;
+}
+
+form{
+	//position: relative;
+	margin: auto;
+	//width: 60%;
+}
+
+
+#container{
+	width: 600px;
+	margin: auto;
+	padding-bottom: 60px; /* Height of the footer element */
+	text-align: center;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+	padding: 5px;
+}
+
+.part{
+	//text-align: left;
+	float: left;
+}
+
+.partnext{
+	//text-align: right;
+	float: right;
+	margin-right: 30px;
+}
+
+.partnext li{
+	display: inline;
+}
+
+
+footer{
+	background-color: #f1f1f1;
+	width:100%;
+	height:60px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
