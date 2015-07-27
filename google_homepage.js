@@ -1,11 +1,11 @@
 document.getElementById("first").addEventListener("click", Search);
 
-document.getElementById("luck").addEventListener("click", Lucky);
 
  function Search(){
  	document.getElementById("first").value = "This isn't real";	
 };
 
+document.getElementById("luck").addEventListener("click", Lucky);
 
 function Lucky(){
  	document.getElementById("luck").value = "Say What?";
